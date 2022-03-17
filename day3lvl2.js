@@ -1,11 +1,11 @@
 //Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
-/*let b =parseInt( prompt('Enter base'))
+let b =parseInt( prompt('Enter base'))
 let h =parseInt( prompt('Enter height'))
 let area = (0.5 * b * h)
 console.log(area);
 
 //Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
-/*let sideA = parseInt(prompt('Enter side a'))
+let sideA = parseInt(prompt('Enter side a'))
 let sideB = parseInt(prompt('Enter side b'))
 let sideC = parseInt(prompt('Enter side c'))
 let perimeter= (sideA + sideB + sideC)
@@ -26,7 +26,7 @@ const pi = 3.14
 let areaC= (pi * radius * radius)
 let circumference= (2 * pi * radius)
 console.log(areaC);
-console.log(circumference);*/
+console.log(circumference);
 
 //Calculate the slope, x-intercept and y-intercept of y = 2x -2
 //for y-intercept
@@ -45,8 +45,11 @@ let x1=2
 let x2=6
 let y1=2
 let y2=10
-let m=(y2-y1/x2-x1)
-console.log(Math.ceil(m));
+let slope2=(y2-y1/x2-x1)
+console.log(Math.ceil(slope2));
+
+//Compare the slope of above two questions.
+console.log(slope == slope2);
 
 //Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 let xv=0
